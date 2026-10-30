@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekpah Matthew | Full-Stack Web Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 1px solid #334155;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #38bdf8;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 2.2rem;
+            color: #38bdf8;
+            margin-bottom: 5px;
+        }
+        p.subtitle {
+            font-size: 1.1rem;
+            color: #94a3b8;
+            margin-bottom: 10px;
+        }
+        .contact-details {
+            font-size: 0.95rem;
+            color: #cbd5e1;
+            margin-bottom: 15px;
+        }
+        .contact-details span {
+            margin: 0 10px;
+        }
+        .btn-group {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0284c7;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+        .btn-outline {
+            background-color: transparent;
+            border: 1px solid #38bdf8;
+            color: #38bdf8;
+        }
+        section {
+            margin: 30px 0;
+        }
+        h2 {
+            font-size: 1.4rem;
+            color: #38bdf8;
+            border-bottom: 2px solid #0284c7;
+            display: inline-block;
+            margin-bottom: 15px;
+            padding-bottom: 3px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+        }
+        .skill-card {
+            background: #1e293b;
+            padding: 12px;
+            text-align: center;
+            border-radius: 8px;
+            border: 1px solid #334155;
+            font-size: 0.95rem;
+        }
+        .project-card, .edu-card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #334155;
+        }
+        .project-card h3, .edu-card h3 {
+            color: #f1f5f9;
+            margin-bottom: 6px;
+        }
+        .edu-card p, .project-card p {
+            color: #94a3b8;
+            font-size: 0.95rem;
+            margin-bottom: 8px;
+        }
+        .project-links a {
+            color: #38bdf8;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-right: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #64748b;
+            font-size: 0.85rem;
+            border-top: 1px solid #334155;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <!-- Change 'matthew-photo.jpg' to match your saved image filename -->
+            <img src="matthew-photo.jpg" alt="Ekpah Matthew" class="profile-img">
+            <h1>Ekpah Matthew</h1>
+            <p class="subtitle">Full-Stack Web Developer & Technical Specialist</p>
+            <div class="contact-details">
+                <span>Phone: 08129076987</span> | 
+                <span>Email: Matthewgerald223@gmail.com</span>
+            </div>
+            <div class="btn-group">
+                <a href="mailto:Matthewgerald223@gmail.com" class="btn">Hire Me</a>
+                <a href="tel:08129076987" class="btn btn-outline">Call: 08129076987</a>
+            </div>
+        </header>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a detail-oriented Full-Stack Web Developer and Computer Science student with hands-on experience building fast, responsive web applications, backend search scripts, and mobile-optimized interfaces. Passionate about solving complex digital problems and delivering scalable products.</p>
+        </section>
+
+        <section id="education">
+            <h2>Qualifications & Education</h2>
+            
+            <div class="edu-card">
+                <h3>B.Sc. Computer Science (In View)</h3>
+                <p><strong>Federal University Lokoja (FULOKOJA)</strong></p>
+                <p>Currently undertaking professional and foundational software development, algorithms, and web architecture studies.</p>
+            </div>
+
+            <div class="edu-card">
+                <h3>WASSCE / Secondary School Education</h3>
+                <p><strong>Presentation Model Secondary School, Ukpaba, Kogi State</strong></p>
+                <p>Graduated with full credit passes across all subjects, building a strong academic and analytical foundation.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Tech Stack</h2>
+            <div class="skills-grid">
+                <div class="skill-card">HTML5 & CSS3</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">Python</div>
+                <div class="skill-card">REST APIs</div>
+                <div class="skill-card">Render / Web Hosting</div>
+                <div class="skill-card">Git / GitHub</div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            
+            <div class="project-card">
+                <h3>Matel Engine</h3>
+                <p>A custom web search application deployed on Render that processes direct search queries, delivers live indexing, and hosts mobile-responsive web pages.</p>
+                <div class="project-links">
+                    <a href="https://matel-engine.onrender.com" target="_blank">View Live Project &rarr;</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Goal Matrix & Slam Matrix</h3>
+                <p>Custom sports and news media portals featuring custom HTML/CSS responsive templates, automated publishing flows, and performance tracking.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Ekpah Matthew. Built with precision for web excellence.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
